@@ -5,7 +5,8 @@ ipcdump: ipcdump.c
 
 
 install: ipcdump
-	install -m 0755 /usr/bin/ipcdump ./ipcdump
+	# On macOS
+	install -m 0755 ipcdump /usr/local/bin
 
 .PHONY: clean
 
