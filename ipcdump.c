@@ -1,4 +1,4 @@
-// Pichu Chen 2020, All right reserved.
+// Pichu Chen 2021, All right reserved.
 
 #include <sys/ipc.h>
 #include <sys/shm.h>
@@ -136,8 +136,5 @@ void dump(const int shmkey, const char* file_path) {
 	// 	printf("close error: %s(%d)\n", strerror(errno), errno);
 	// 	return;
 	// }
-
-
-
 
 }
