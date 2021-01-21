@@ -5,7 +5,7 @@ ipcdump: ipcdump.c
 
 
 install: ipcdump
-	install -m 0755 ipcdump ./ipcdump
+	install -m 0755 /usr/bin/ipcdump ./ipcdump
 
 .PHONY: clean
 
